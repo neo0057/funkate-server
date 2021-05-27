@@ -12,7 +12,7 @@ public class HelloController {
 
   @RequestMapping(value = "", method = RequestMethod.GET)
   public String index() {
-    return "Greetings from Spring Boot!";
+    return "Greetings from Spring Boot New!";
   }
 
   @RequestMapping(value = "/health", method = RequestMethod.GET)
